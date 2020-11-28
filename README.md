@@ -25,17 +25,15 @@ After navigating to any profile on the Community District Profiles website, the 
 ## Methods
 The notebooks for this project were organized based on the [OSEMN](https://people.duke.edu/~ccc14/sta-663/DataProcessingSolutions.html) process:
 
-* [Obtaining data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Obtaining_the_Data.ipynb)
-* [Scrubbing data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Scrubbing_the_Data.ipynb)
-* [Exploring data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/tree/main/Exploring_the_Data)
-
-Due to the size of the data represented in exploratory visuals, this section is broken up into three separate notebooks:
+* [Obtaining data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Obtaining_the_Data.ipynb)—Accessed data through the SODA API and Community District profiles.
+* [Scrubbing data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Scrubbing_the_Data.ipynb)—Dealt with missing and unnecessary data, reformatted values for consistency, and merged the two datasets.
+* [Exploring data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/tree/main/Exploring_the_Data)—Generated summary statistics and interactive visualizations of the data. Due to the size of the data represented in the visuals, this section is broken up into five separate notebooks:
     * Bar Charts
     * Area Charts
     * Mapbox Density Heatmaps
     * Correlation Heatmap and Wordcloud
     * Scatterplots
-* [Modeling data and iNterpreting data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Modeling_and_Interpreting.ipynb)
+* [Modeling data and iNterpreting data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Modeling_and_Interpreting.ipynb)—Using the Keras library, preprocessed data for modelling and evaluated the performance of different classification models with various parameter grids. 
 
 ## Results
 
@@ -50,7 +48,6 @@ Due to the size of the data represented in exploratory visuals, this section is 
 
 ## Recommendations:
 
-More of your own text here
 
 
 ## Limitations & Next Steps
@@ -61,16 +58,3 @@ More of your own text here
 ### For further information
 
 For any additional questions, please contact Avonlea Fisher at fisheravonlea@gmail.com.
-
-
-##### Repository Structure:
-
-```
-
-├── README.md                       <- The top-level README for reviewers of this project.
-├── main_notebook.ipynb             <- narrative documentation of analysis in jupyter notebook
-├── presentation.pdf                <- pdf version of project presentation
-└── images
-    └── images                          <- both sourced externally and generated from code
-
-```
