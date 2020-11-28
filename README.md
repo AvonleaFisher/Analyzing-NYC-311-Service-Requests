@@ -1,7 +1,9 @@
 # An Analysis of NYC 311 Service Requests 
 ## Predicting the Responding Government Agency
 
-**Authors**: Avonlea Fisher
+**Author**: Avonlea Fisher
+
+**Blog Post**: 
 
 The contents of this repository detail an analysis of NYC 311 Service requests and the community districts in which they were recorded. 
 
@@ -10,30 +12,38 @@ The contents of this repository detail an analysis of NYC 311 Service requests a
 Understanding trends in 311 data can help government agencies more effectively respond to requests and issues raised by the populations they serve. The exploratory analysis section of this project seeks to identify such trends, and the modelling section aims to build a classifier that can accurately predict the agency that responds to a call. This type of classification could facilitate the automatic assigment of non-emergency requests to the appropriate agency, in a context where requests generate text descriptions.
 
 ### Data
+The data used in this project was obtained from two sources:
 
+* [NYC Open Data's 311 Service Requests from 2010 to Present](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9)
+
+This dataset contains information about the time, location, complaint type, and status of more than 24 million 311 service requests made in New York City within the past decade. This project uses a subset of the data from 2020 that was accessed with the Socrata Open Data (SODA) API.
+
+* NYC Department of City Planning’s Community District Profiles
+
+After navigating to any profile on the Community District Profiles website, the Indicators Data can be obtained under "Download the Data." This dataset contains development and population information for each Community District in New York City. Community board names, which correspond to community districts, can also be found in the 311 dataset.
 
 ## Methods
 The notebooks for this project were organized based on the [OSEMN](https://people.duke.edu/~ccc14/sta-663/DataProcessingSolutions.html) process:
 
-Obtaining data
-Scrubbing data
-Exploring data
-Modeling data
-iNterpreting data
-descriptive analysis
+* [Obtaining data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Obtaining_the_Data.ipynb)
+* [Scrubbing data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Scrubbing_the_Data.ipynb)
+* Exploring data—this section is broken up into three separate notebooks:
+    * [Bar Charts](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Exploring_the_Data_Barcharts.ipynb)
+    * [Area Charts](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Exploring_the_Data_Area_Charts.ipynb)
+    * [Mapbox Density Heatmaps](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Exploring_the_Data_Mapbox_Density_Heatmaps.ipynb)
+    * [Correlation Heatmap and Wordcloud](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Exploring_the_Data_Correlation_Heatmap_and_Wordcloud.ipynb)
+    * [Scatterplots](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Exploring_the_Data_Scatterplots.ipynb)
+* [Modeling data and iNterpreting data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Modeling_and_Interpreting.ipynb)
 
 ## Results
 
-### Here are examples of how to embed images from your sub-folder
+#### Mapbox Density Heatmap Example
+![August](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/August.gif)
+> This animation depicts the day-to-day changes in call volume throughout NYC in August 2020. Yellow areas on the map indicate high call volume.
 
-
-#### Visual 1
-![graph1](./images/visual1.png)
-> Sentence about visualization.
-
-#### Visual 2
-![graph2](./images/visual2.png)
-> Sentence about visualization.
+#### Most Frequent Words in Call Descriptions
+![Word Cloud](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/311_word_cloud.png)
+> Noise-related complaints comprised the overwhelming majority of calls each month.
 
 
 ## Recommendations:
