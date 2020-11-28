@@ -9,7 +9,7 @@ The contents of this repository detail an analysis of NYC 311 Service requests a
 
 ### Problem:
 
-Understanding trends in 311 data can help government agencies more effectively respond to requests and issues raised by the populations they serve. The exploratory analysis section of this project seeks to identify such trends, and the modelling section aims to build a classifier that can accurately predict the agency that responds to a call. This type of classification could facilitate the automatic assigment of non-emergency requests to the appropriate agency, in a context where requests generate text descriptions.
+Understanding trends in 311 data can help government agencies more effectively respond to requests and issues raised by the populations they serve. The exploratory analysis section of this project seeks to identify such trends, and the modelling section aims to build a classifier that can accurately predict the agency that responds to a call. This type of classification, if developed further, could facilitate the automatic assigment of non-emergency requests to the appropriate agency in a context where requests generate text descriptions.
 
 ### Data
 The data used in this project was obtained from two sources:
@@ -27,12 +27,14 @@ The notebooks for this project were organized based on the [OSEMN](https://peopl
 
 * [Obtaining data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Obtaining_the_Data.ipynb)
 * [Scrubbing data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Scrubbing_the_Data.ipynb)
-* Exploring data—this section is broken up into three separate notebooks:
-    * [Bar Charts](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Exploring_the_Data_Barcharts.ipynb)
-    * [Area Charts](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Exploring_the_Data_Area_Charts.ipynb)
-    * [Mapbox Density Heatmaps](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Exploring_the_Data_Mapbox_Density_Heatmaps.ipynb)
-    * [Correlation Heatmap and Wordcloud](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Exploring_the_Data_Correlation_Heatmap_and_Wordcloud.ipynb)
-    * [Scatterplots](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Exploring_the_Data_Scatterplots.ipynb)
+* [Exploring data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/tree/main/Exploring_the_Data)
+
+Due to the size of the data represented in exploratory visuals, this section is broken up into three separate notebooks:
+    * Bar Charts
+    * Area Charts
+    * Mapbox Density Heatmaps
+    * Correlation Heatmap and Wordcloud
+    * Scatterplots
 * [Modeling data and iNterpreting data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Modeling_and_Interpreting.ipynb)
 
 ## Results
