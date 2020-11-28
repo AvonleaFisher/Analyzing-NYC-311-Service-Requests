@@ -57,14 +57,11 @@ More of your own text here
 
 
 ### For further information
-Please review the narrative of our analysis in [our jupyter notebook](./main_notebook.ipynb) or review our [presentation](./SampleProjectSlides.pdf)
 
-For any additional questions, please contact **email, email, email)
+For any additional questions, please contact Avonlea Fisher at fisheravonlea@gmail.com.
 
 
 ##### Repository Structure:
-
-Here is where you would describe the structure of your repoistory and its contents, for exampe:
 
 ```
 
