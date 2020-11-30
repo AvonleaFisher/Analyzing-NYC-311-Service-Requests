@@ -27,7 +27,7 @@ The notebooks for this project were organized based on the [OSEMN](https://peopl
 
 * [Obtaining data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Obtaining_the_Data.ipynb)—Accessed data through the SODA API and Community District profiles.
 * [Scrubbing data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Scrubbing_the_Data.ipynb)—Dealt with missing and unnecessary data, reformatted values for consistency, and merged the two datasets.
-* [Exploring data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/tree/main/Exploring_the_Data)—Generated summary statistics and interactive visualizations of the data. Due to the size of the data represented in the visuals, this section is broken up into five separate notebooks:
+* [Exploring data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/tree/main/Exploring_the_Data)—Generated summary statistics and interactive visualizations of the data. Noise complaints were the most common complaint type, and the New York Police Department (NYPD) was the agency that responded to the vast majority of calls. Due to the size of the data represented in the visuals, this section is broken up into five separate notebooks:
     * Bar Charts
     * Area Charts
     * Mapbox Density Heatmaps
@@ -53,7 +53,7 @@ The best-performing model had 90% accuracy with the test data and 73% accuracy w
 
 
 ## Recommendations:
-Similar classification models can be developed to connect individuals with non-emergency government services by directing them to the appropriate responding agency. Given that the vast majority of non-emergency requests are responded to by the same agency responsible for emergency requests, NYC and other local governments may wish to consider whether the current division of labor in handling 311 calls is optimal for meeting the needs of city residents. Especially given growing concerns over the use of excessive force by police in non-emergency situations, this could be a fruitful avenue for further research.
+Similar classification models can be developed to connect individuals with non-emergency government services by directing them to the appropriate responding agency. Given that the majority of non-emergency requests are responded to by the same agency responsible for emergency requests, NYC and other local governments may wish to consider whether the current division of labor in handling 311 calls is optimal for meeting the needs of city residents. Especially given growing concerns over the use of excessive force by police in non-emergency situations, this could be a fruitful avenue for further research.
 
 ## Limitations & Next Steps
 
