@@ -33,9 +33,15 @@ The notebooks for this project were organized based on the [OSEMN](https://peopl
     * Mapbox Density Heatmaps
     * Correlation Heatmap and Wordcloud
     * Scatterplots
-* [Modeling data and iNterpreting data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Modeling_and_Interpreting.ipynb)—Using the Keras library, preprocessed data for modelling and evaluated the performance of different classification models with various parameter grids. 
+* [Modeling data and iNterpreting data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Modeling_and_Interpreting.ipynb)—Using the Keras library, preprocessed data for modelling and evaluated the performance of different classification models with various parameter grids. Performance was evaluated on both test data from the resampled subset, as well as another random subset that was not resampled.
 
 ## Results
+
+The best-performing model had 90% accuracy with the test data and 73% accuracy with the random subset.
+
+#### Loss and Accuracy Curves
+![Loss and Accuracy](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/loss_v_accuracy.png)
+> Accuracy and loss curves show that the model began to learn at a mostly steady rate after about 50 epochs.
 
 #### Mapbox Density Heatmap Example
 ![August](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/August.gif)
@@ -47,7 +53,6 @@ The notebooks for this project were organized based on the [OSEMN](https://peopl
 
 
 ## Recommendations:
-
 
 
 ## Limitations & Next Steps
