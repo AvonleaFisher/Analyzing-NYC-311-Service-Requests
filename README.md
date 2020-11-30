@@ -18,7 +18,7 @@ The data used in this project was obtained from two sources:
 
 This dataset contains information about the time, location, complaint type, and status of more than 24 million 311 service requests made in New York City within the past decade. This project uses a subset of the data from 2020 that was accessed with the Socrata Open Data (SODA) API.
 
-* NYC Department of City Planning’s Community District Profiles
+* [NYC Department of City Planning’s Community District Profiles](https://communityprofiles.planning.nyc.gov/)
 
 After navigating to any profile on the Community District Profiles website, the Indicators Data can be obtained under "Download the Data." This dataset contains development and population information for each Community District in New York City. Community board names, which correspond to community districts, can also be found in the 311 dataset.
 
@@ -52,9 +52,9 @@ The notebooks for this project were organized based on the [OSEMN](https://peopl
 
 ## Limitations & Next Steps
 
-More of your own text here
+The input variable, call descriptor, consisted of just over 800 unique string values before preprocessing. The model has only been trained, therefore, to recognize a relatively limited set of words that may appear in service request descriptions. Training on a larger and more diverse set of descriptions could enhance the model's ability to match descriptions with a responding agency. 
 
 
 ### For further information
 
-For any additional questions, please contact Avonlea Fisher at fisheravonlea@gmail.com.
+For any additional questions, please contact me at mailto:fisheravonlea@gmail.com or via my [LinkedIn profile](https://www.linkedin.com/in/avonlea-fisher/).
