@@ -53,12 +53,11 @@ The best-performing model had 90% accuracy with the test data and 73% accuracy w
 
 
 ## Recommendations:
-
+Similar classification models can be developed to connect individuals with non-emergency government services by directing them to the appropriate responding agency. Given that the vast majority of non-emergency requests are responded to by the same agency responsible for emergency requests, NYC and other local governments may wish to consider whether the current division of labor in handling 311 calls is optimal for meeting the needs of city residents. Especially given growing concerns over the use of excessive force by police in non-emergency situations, this could be a fruitful avenue for further research.
 
 ## Limitations & Next Steps
 
 The input variable, call descriptor, consisted of just over 800 unique string values before preprocessing. The model has only been trained, therefore, to recognize a relatively limited set of words that may appear in service request descriptions. Training on a larger and more diverse set of descriptions could enhance the model's ability to match descriptions with a responding agency. 
-
 
 ### For further information
 
