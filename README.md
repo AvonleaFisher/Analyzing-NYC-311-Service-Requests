@@ -57,4 +57,4 @@ The input variable, call descriptor, consisted of just over 800 unique string va
 
 ### For further information
 
-For any additional questions, please contact me at mailto:fisheravonlea@gmail.com or via my [LinkedIn profile](https://www.linkedin.com/in/avonlea-fisher/).
+For any additional questions, please contact me at [fisheravonlea@gmail.com](mailto:fisheravonlea@gmail.com) or via my [LinkedIn profile](https://www.linkedin.com/in/avonlea-fisher/).
