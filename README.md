@@ -51,9 +51,8 @@ The best-performing model had 90% accuracy with the test data and 73% accuracy w
 ![Word Cloud](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/311_word_cloud.png)
 > Noise-related complaints comprised the overwhelming majority of calls each month.
 
-
 ## Recommendations:
-Similar classification models can be developed to connect individuals with non-emergency government services by directing them to the appropriate responding agency. Given that the majority of non-emergency requests are responded to by the same agency responsible for emergency requests, NYC and other local governments may wish to consider whether the current division of labor in handling 311 calls is optimal for meeting the needs of city residents. Especially given growing concerns over the use of excessive force by police in non-emergency situations, this could be a fruitful avenue for further research.
+Similar classification models can be developed to connect individuals with non-emergency government services by directing them to the appropriate responding agency. Given that the majority of non-emergency requests are responded to by the same agency responsible for emergency requests, local stakeholders may wish to evaluate whether the current division of labor in handling 311 calls is optimal for meeting the needs of city residents. 
 
 ## Limitations & Next Steps
 
