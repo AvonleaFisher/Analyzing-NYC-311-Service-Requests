@@ -3,7 +3,7 @@
 
 **Author**: Avonlea Fisher
 
-**Blog Post**: https://avfisher.medium.com/analyzing-and-modelling-nyc-311-service-requests-eb6a9c9adc7c
+**Blog Post**: https://towardsdatascience.com/analyzing-and-modelling-nyc-311-service-requests-eb6a9c9adc7c
 
 The contents of this repository detail an analysis of NYC 311 Service requests and the community districts in which they were recorded. 
 
