@@ -7,16 +7,16 @@
 
 The contents of this repository detail an analysis of NYC 311 Service requests and the community districts in which they were recorded. 
 
-## Problem:
+## Abstract:
 
-Understanding trends in 311 data can help government agencies more effectively respond to requests and issues raised by the populations they serve. The exploratory analysis section of this project seeks to identify such trends, and the modelling section aims to build a classifier that can accurately predict the agency that responds to a call. This type of classification, if developed further, could facilitate the automatic assigment of non-emergency requests to the appropriate agency in a context where requests generate text descriptions.
+Data pertaining to the time, location, and content of thousands of 311 calls in New York City is recorded every day. By studying trends in this data, government agencies can respond more effectively to non-emergency requests and issues raised by the populations they serve. Using public data on 311 calls and community districts in NYC, this project explores which types of calls are the most common, how daily call volume varies across different districts, and how calls are distributed to various responding government agencies. Using natural language processing and the Keras library, this project aims to develop a neural network that can classify the government agency that responded to a call, given the call's description as an input. The best-performing model correctly classified 73% of calls in a test subset of the data. The agency variable was heavily imbalanced: the New York Police Department (NYPD) responded to just over 50% of all 311 calls. There were 14 total government agencies to which 311 calls in the dataset were assigned, which presents difficulties in training a classifier with perfect accuracy. Currently, most non-emergency service requests are handled through a phone call. This type of classifier, if developed further, could facilitate the automatic assigment of non-emergency requests to the appropriate agency in an online context where requests generate text descriptions.
 
 ## Data
 The data used in this project was obtained from two sources:
 
 * [NYC Open Data's 311 Service Requests from 2010 to Present](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9)
 
-This dataset contains information about the time, location, complaint type, and status of more than 24 million 311 service requests made in New York City within the past decade. This project uses a subset of the data from 2020 that was accessed with the Socrata Open Data (SODA) API.
+This dataset contains information about the location, time, complaint type, and status of more than 24 million 311 service requests made in New York City within the past decade. This project uses a subset of the data from 2020 that was accessed with the Socrata Open Data (SODA) API.
 
 * [NYC Department of City Planning’s Community District Profiles](https://communityprofiles.planning.nyc.gov/)
 
