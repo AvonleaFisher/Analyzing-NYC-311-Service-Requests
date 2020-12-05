@@ -4,8 +4,9 @@
 **Author**: Avonlea Fisher
 
 **Blog Post**: https://towardsdatascience.com/analyzing-and-modelling-nyc-311-service-requests-eb6a9c9adc7c
+**Dashboard**: https://nyc-311.herokuapp.com/
 
-The contents of this repository detail an analysis of NYC 311 Service requests and the community districts in which they were recorded. 
+The contents of this repository detail an analysis of NYC 311 Service requests and the community districts in which they were recorded. Interactive visualizations that cannot render in this repository are available in the Heroku dashboard linked above (note: the dashboard may take some time to load).
 
 ## Abstract:
 
