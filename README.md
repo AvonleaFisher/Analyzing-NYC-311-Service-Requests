@@ -36,7 +36,7 @@ The <b>notebooks</b> for this project were organized based on the [OSEMN](https:
     * Mapbox Density Heatmaps
     * Correlation Heatmap and Wordcloud
     * Scatterplots
-* [Modeling data and iNterpreting data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Modeling_and_Interpreting.ipynb)—Using the Keras library, preprocessed data for modelling and evaluated the performance of different classification models with various parameter grids. Performance was evaluated on both test data from the resampled subset, as well as another random subset that was not resampled.
+* [Modeling data and iNterpreting data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Modeling_and_Interpreting.ipynb)—Using the Keras library, preprocessed data for modelling and evaluated the performance of different classification models with various parameter grids. Performance was evaluated on 1) test data from the resampled subset and 2) another random subset of the data that was not resampled.
 
 The <b>Dashboard</b> folder contains the files that were used to create the NYC 311 Heroku app:
 
