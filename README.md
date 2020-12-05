@@ -69,7 +69,9 @@ The best-performing model had 90% accuracy with the test data and 73% accuracy w
 > Calls to the NYPD, which include all noise complaints, peak at the earliest and latest hours of the day. 
 
 ## Recommendations:
-Similar classification models can be developed to connect individuals with non-emergency government services by directing them to the appropriate responding agency. Given that the majority of non-emergency requests are responded to by the same agency responsible for emergency requests, local stakeholders may wish to evaluate whether the current division of labor in handling 311 calls is optimal for meeting the needs of city residents. 
+* Similar classification models can be developed to connect individuals with non-emergency government services by directing them to the appropriate responding agency. This potential application would require training on a larger, more varied set of descriptors. 
+* Agencies should be attentive to how call volume tends to change based on certain temporal, geographic, and environmental factors. Many of these changes are intuitively expected: widespread tree damage following major weather events, noise calls peaking in the middle of the night, and overall call volume remaining consistently high in the most densely populated borough, Manhattan. Due to the novelty of COVID-19 regulations, complaints related to COVID-19 have appeared only recently, so particular attention should be directed toward the circumstances surrounding any future peaks.
+* Given that the majority of non-emergency requests are responded to by the same agency responsible for emergency requests, local stakeholders may wish to evaluate whether the current division of labor in handling 311 calls is optimal for meeting the needs of city residents. Amid growing concerns that law enforcement officers are over-utilized for intervention in non-emergency situations, this could be a fruitful area for further inquiry.
 
 ## Limitations & Next Steps
 
