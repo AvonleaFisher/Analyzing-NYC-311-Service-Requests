@@ -56,7 +56,7 @@ The best-performing model had 91.7% accuracy on the test data and 73.8% accuracy
 > Accuracy and loss curves show that the model began to learn at a mostly steady rate after about 50 epochs.
 
 #### Mapbox Density Heatmap Example
-![August](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/August.gif)
+![August](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Images/august.gif)
 > This animation depicts the day-to-day changes in call volume throughout NYC in August 2020. Yellow areas on the map indicate high call volume.
 
 #### Most Frequent Words in Call Descriptions
