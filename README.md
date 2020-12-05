@@ -26,7 +26,7 @@ This dataset contains information about the location, time, complaint type, and 
 After navigating to any profile on the Community District Profiles website, the Indicators Data can be obtained under "Download the Data." This dataset contains development and population information for each Community District in New York City. Community board names, which correspond to community districts, can also be found in the 311 dataset.
 
 ## Methods and Repository Structure
-The notebooks for this project were organized based on the [OSEMN](https://people.duke.edu/~ccc14/sta-663/DataProcessingSolutions.html) process, and should be followed in this order:
+The <b>notebooks</b> for this project were organized based on the [OSEMN](https://people.duke.edu/~ccc14/sta-663/DataProcessingSolutions.html) process, and should be followed in this order:
 
 * [Obtaining data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Obtaining_the_Data.ipynb)—Accessed data through the SODA API and Community District profiles.
 * [Scrubbing data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Scrubbing_the_Data.ipynb)—Dealt with missing and unnecessary data, reformatted values for consistency, and merged the two datasets.
@@ -38,12 +38,14 @@ The notebooks for this project were organized based on the [OSEMN](https://peopl
     * Scatterplots
 * [Modeling data and iNterpreting data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Modeling_and_Interpreting.ipynb)—Using the Keras library, preprocessed data for modelling and evaluated the performance of different classification models with various parameter grids. Performance was evaluated on both test data from the resampled subset, as well as another random subset that was not resampled.
 
-The Dashboard folder contains the files that were used to create the Heroku app linked above:
+The <b>Dashboard</b> folder contains the files that were used to create the NYC 311 Heroku app:
 
 * Various CSV files with data used in app
 * [main.py](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Dashboard/main.py)—Python code for app 
 * [requirements.txt](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Dashboard/requirements.txt)—Dependencies 
 * [Procfile](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Dashboard/Procfile)—Instructions to Heroku for how to start the app
+
+A .gitignore file, which tells Heroku which contents are superfluous and should be ignored, was also used in deployment. More information about Heroku with Python can be found at [Heroku Dev Center](https://devcenter.heroku.com/articles/getting-started-with-python).
 
 ## Results
 
