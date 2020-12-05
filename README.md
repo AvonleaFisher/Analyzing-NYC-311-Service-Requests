@@ -49,7 +49,7 @@ A .gitignore file, which tells Heroku which contents are superfluous and should 
 
 ## Results
 
-The best-performing model had 90% accuracy with the test data and 73% accuracy with the random subset.
+The best-performing model had 91.7% accuracy on the test data and 73.8% accuracy on the random subset.
 
 #### Loss and Accuracy Curves
 ![Loss and Accuracy](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/loss_v_accuracy.png)
