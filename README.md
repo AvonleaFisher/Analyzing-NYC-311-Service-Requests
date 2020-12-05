@@ -32,7 +32,7 @@ The <b>notebooks</b> for this project were organized based on the [OSEMN](https:
 * [Scrubbing data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Scrubbing_the_Data.ipynb)—Dealt with missing and unnecessary data, reformatted values for consistency, and merged the two datasets.
 * [Exploring data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/tree/main/Exploring_the_Data)—Generated summary statistics and interactive visualizations of the data. Noise complaints were the most common complaint type, and the New York Police Department (NYPD) was the agency that responded to the vast majority of calls. Due to the size of the data represented in the visuals, this section is broken up into five separate notebooks:
     * Bar Charts
-    * Area Charts
+    * Line and Area Charts
     * Mapbox Density Heatmaps
     * Correlation Heatmap and Wordcloud
     * Scatterplots
@@ -60,11 +60,12 @@ The best-performing model had 91.7% accuracy on the test data and 73.8% accuracy
 > This animation depicts the day-to-day changes in call volume throughout NYC in August 2020. Yellow areas on the map indicate high call volume.
 
 #### Most Frequent Words in Call Descriptions
-![Word Cloud](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/311_word_cloud.png)
+<img src="https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Images/wordcloud.png" width="400" height="400">
+
 > Noise-related complaints comprised the overwhelming majority of calls each month.
 
 #### Top 5 Agencies with Highest Number of Calls: Hourly Totals
-<img src="https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Hourly_Calls.png" width="400" height="400">
+<img src="https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Images/Total_Calls_Hour.png" width="400" height="400">
 
 > Calls to the NYPD, which include all noise complaints, peak at the earliest and latest hours of the day. 
 
