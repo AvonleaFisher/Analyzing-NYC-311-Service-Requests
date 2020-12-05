@@ -53,6 +53,7 @@ The best-performing model had 90% accuracy with the test data and 73% accuracy w
 
 #### Call Totals by Time of Day
 <img src="https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/hourly_calls.png" width="400" height="400">
+
 > Calls to the NYPD, which include all noise complaints, peak at the earliest and latest hours of the day. 
 
 ## Recommendations:
