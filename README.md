@@ -52,7 +52,7 @@ A .gitignore file, which tells Heroku which contents are superfluous and should 
 The best-performing model had 91.7% accuracy on the test data and 73.8% accuracy on the random subset.
 
 #### Loss and Accuracy Curves
-![Loss and Accuracy](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/acc_loss.png)
+![Loss and Accuracy](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Images/loss_acc.png)
 > Accuracy and loss curves show that the model began to learn at a mostly steady rate after about 50 epochs.
 
 #### Mapbox Density Heatmap Example
