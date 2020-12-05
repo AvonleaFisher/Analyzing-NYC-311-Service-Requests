@@ -63,7 +63,7 @@ The best-performing model had 90% accuracy with the test data and 73% accuracy w
 ![Word Cloud](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/311_word_cloud.png)
 > Noise-related complaints comprised the overwhelming majority of calls each month.
 
-#### Call Totals by Time of Day
+#### Top 5 Agencies with Highest Number of Calls: Hourly Totals
 <img src="https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Hourly_Calls.png" width="400" height="400">
 
 > Calls to the NYPD, which include all noise complaints, peak at the earliest and latest hours of the day. 
