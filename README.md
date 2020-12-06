@@ -64,6 +64,8 @@ The best-performing model had 91.7% accuracy on the test data and 73.8% accuracy
 
 > Noise-related complaints comprised the overwhelming majority of calls each month.
 
+> <sup>Wordcloud mask attribution: Image #19210492 at VectorStock.com<sup>
+
 #### Top 5 Agencies with Highest Number of Calls: Hourly Totals
 <img src="https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Images/Total_Calls_Hour.png" width="400" height="400">
 
