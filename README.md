@@ -28,15 +28,15 @@ After navigating to any profile on the Community District Profiles website, the 
 ## Methods and Repository Structure
 The <b>notebooks</b> for this project were organized based on the [OSEMN](https://people.duke.edu/~ccc14/sta-663/DataProcessingSolutions.html) process, and should be followed in this order:
 
-* [Obtaining data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Obtaining_the_Data.ipynb)—Accessed data through the SODA API and Community District profiles.
-* [Scrubbing data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Scrubbing_the_Data.ipynb)—Dealt with missing and unnecessary data, reformatted values for consistency, and merged the two datasets.
-* [Exploring data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/tree/main/Exploring_the_Data)—Generated summary statistics and interactive visualizations of the data. Noise complaints were the most common complaint type, and the New York Police Department (NYPD) was the agency that responded to the vast majority of calls. Due to the size of the data represented in the visuals, this section is broken up into five separate notebooks:
+* [Obtaining_the_Data.ipynb](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Obtaining_the_Data.ipynb)—Accessed data through the SODA API and Community District profiles.
+* [Scrubbing_the_Data.ipynb](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Scrubbing_the_Data.ipynb)—Dealt with missing and unnecessary data, reformatted values for consistency, and merged the two datasets.
+* [Exploring_the_Data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/tree/main/Exploring_the_Data)—Generated summary statistics and interactive visualizations of the data. Noise complaints were the most common complaint type, and the New York Police Department (NYPD) was the agency that responded to the vast majority of calls. Due to the size of the data represented in the visuals, this section is broken up into five separate notebooks:
     * Bar Charts
     * Line and Area Charts
     * Mapbox Density Heatmaps
     * Correlation Heatmap and Wordcloud
     * Scatterplots
-* [Modeling data and iNterpreting data](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Modeling_and_Interpreting.ipynb)—Using the Keras library, preprocessed data for modelling and evaluated the performance of different classification models with various parameter grids. Performance was evaluated on 1) test data from the resampled subset and 2) another random subset of the data that was not resampled.
+* [Modeling_and_Interpreting.ipynb](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Modeling_and_Interpreting.ipynb)—Using the Keras library, preprocessed data for modelling and evaluated the performance of different classification models with various parameter grids. Performance was evaluated on 1) test data from the resampled subset and 2) another random subset of the data that was not resampled.
 
 The <b>Dashboard</b> folder contains the files that were used to create the NYC 311 Heroku app:
 
