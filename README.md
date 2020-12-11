@@ -49,7 +49,7 @@ A .gitignore file, which tells Heroku which contents are superfluous and should 
 
 ## Results
 
-The best-performing model had 92.6% accuracy on the test data and 72.8% accuracy on the random subset.
+The best-performing model had 92.6% accuracy on the test data and 72.8% accuracy on the random subset. It performed most successfully on calls assigned to the NYPD, HBD and DPR.
 
 #### Loss and Accuracy Curves
 ![Loss and Accuracy](https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Images/acc_loss.png)
