@@ -6,9 +6,7 @@
 **Blog Post**: https://towardsdatascience.com/analyzing-and-modelling-nyc-311-service-requests-eb6a9c9adc7c
 
 **Dashboard**: https://nyc-311.herokuapp.com/
-
-#### Dashboard Screenshot
-<a href="ttps://nyc-311.herokuapp.com/"><img src="https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Images/Dashboard_screenshot.png">
+<a href="https://nyc-311.herokuapp.com/"><img src="https://github.com/AvonleaFisher/Analyzing-NYC-311-Service-Requests/blob/main/Images/Dashboard_screenshot.png">
 > Interactive visualizations that cannot render in this repository are available in the Heroku dashboard screenshotted and linked above. Note: the dashboard may take some time to load.
 
 
